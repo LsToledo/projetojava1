@@ -1,10 +1,13 @@
 package curso.java.luis;
 
+import java.sql.Date;
+
 public class pessoa {
 	private String nome;
 	private String sobrenome;
 	private int idade;
 	private Date datanacimento;
+	
 	public int getIdade() {
 		return idade;
 	}
